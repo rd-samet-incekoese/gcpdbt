@@ -1,0 +1,37 @@
+
+
+============================== 2022-08-08 08:10:26.910593 | e2bde0ae-9462-4b1e-bd33-1dffe58eeea4 ==============================
+[0m08:10:26.910593 [info ] [MainThread]: Running with dbt=1.2.0
+[0m08:10:26.912612 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\a13a4ec\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m08:10:26.913597 [debug] [MainThread]: Tracking: tracking
+[0m08:10:27.138169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEAC867E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEAC867BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEAC867EB0>]}
+[0m08:10:43.125867 [debug] [MainThread]: Starter project path: C:\Users\a13a4ec\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m08:14:17.242574 [info ] [MainThread]: Profile gcptest written to C:\Users\a13a4ec\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m08:14:17.246576 [info ] [MainThread]: 
+Your new dbt project "gcptest" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:14:17.251576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEAC8E4FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEAC8B50F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEAC8B4DF0>]}
+
+
+============================== 2022-08-09 06:37:00.667844 | 2694076b-933b-4de8-9966-2806600121cf ==============================
+[0m06:37:00.667844 [info ] [MainThread]: Running with dbt=1.2.0
+[0m06:37:00.673042 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\a13a4ec\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m06:37:00.674044 [debug] [MainThread]: Tracking: tracking
+[0m06:37:00.761065 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2DB9A3F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2DB9F5BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2DB9F6020>]}
+[0m06:37:02.111545 [debug] [MainThread]: Executing "git --help"
+[0m06:37:02.275575 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m06:37:02.275575 [debug] [MainThread]: STDERR: "b''"
+[0m06:37:02.276575 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2DB9F6020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2DB9F5360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2DC4CC2E0>]}
